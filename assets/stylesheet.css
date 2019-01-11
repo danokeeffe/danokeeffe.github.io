@@ -1,0 +1,32 @@
+h1 { font-family: 'Jura', sans-serif; }
+h1 { font-size: 6vw;}
+/*h1 { position: absolute; top: 50%; transform: translate(0, 40%) } */
+img { border:1px solid black; } 
+.portrait-margin 
+{ 
+	margin-top:10px;  
+	margin-right: 10px; 
+	margin-left: 10px; 
+	margin-bottom: 20px 
+}
+.text-margin 
+{ 
+	margin-top:10px;  
+	margin-left: 25px; 
+	margin-bottom: 20px 
+}
+.portrait-size { width: 100%; min-width : 100px }
+.intro-text { text-align:justify;}
+.block { text-align:center; }
+/*
+.block:before { 
+	content: ''; 
+	display: inline-block; 
+	height: 100%; 
+	width: 100%; 
+	vertical-align:middle;
+	margin-right: -0.25em;
+}
+*/
+.vcenter { display: inline-block; vertical-align: middle; }
+span.nobr{white-space:nowrap;}
