@@ -42,12 +42,13 @@ span.nobr{white-space:nowrap;}
     margin-bottom: 2rem; /* spacing between rows */
 }
 
-.publications li {
-    margin-bottom: 0.75rem;  /* ~12px of spacing between items */
-}
-
 /* optional: remove default list style for a cleaner look */
 .publications {
     list-style-position: inside; /* keeps bullets aligned nicely */
     padding-left: 0;             /* removes default left padding if needed */
 }
+.publications li {
+		display: list-item;          /* ensures li behaves as a block element */
+    margin-bottom: 1rem;  
+}
+
