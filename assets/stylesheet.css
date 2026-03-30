@@ -41,3 +41,13 @@ span.nobr{white-space:nowrap;}
     align-items: center; /* vertically centers all child columns */
     margin-bottom: 2rem; /* spacing between rows */
 }
+
+.publications li {
+    margin-bottom: 0.75rem;  /* ~12px of spacing between items */
+}
+
+/* optional: remove default list style for a cleaner look */
+.publications {
+    list-style-position: inside; /* keeps bullets aligned nicely */
+    padding-left: 0;             /* removes default left padding if needed */
+}
