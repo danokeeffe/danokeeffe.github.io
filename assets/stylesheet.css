@@ -30,3 +30,7 @@ img { border:1px solid black; }
 */
 .vcenter { display: inline-block; vertical-align: middle; }
 span.nobr{white-space:nowrap;}
+
+.row.project {
+    margin-bottom: 2rem; /* 32px vertical spacing between rows */
+}
